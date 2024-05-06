@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.absolute-lengths-css{
+   
+    font-size: 30px;
+}
+
+
+.color-css{
+    color: rgb(184, 137, 228);
+}
+
+
+.text-frmatting-css{
+    color: rgb(66, 252, 190);
+
+}
+
+.uppercase{
+      text-transform: uppercase;
+}
+
+.lowercase{
+     text-transform: lowercase;
+}
+
+.capitalize{
+      text-transform: capitalize;
+}
+
+.text-shadow-css{
+    text-shadow: 1px 3px 3px rgb(2, 0, 0);
+
+}
+
+.text-align-css{
+    text-align: center;
+    text-align-last: left;
+}
+
+.text-spacing-css{
+    text-align: justify;
+    text-indent: 45px;
+
+}
+
+.letter-spacing-css{
+    letter-spacing: 5px;
+}
+
+.line-hieght-css{
+    line-height: 10px;
+}
+
+.white-space-css{
+white-space:pre;
+}
+
+.font-size{
+    font-size: large;
+}
+
+.font-family{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font-style{
+    font-style: italic;
+}
+
+.font-variant{
+    font-variant: small-caps;
+}
+
+.font-weight-css{
+     font-weight: lighter;
+}
+
+.background-color-css{
+    background-color: rgb(157, 118, 194);
+}
+
+
+.backgorund-image-css{
+    background-image: url('../img/module_table_bottom.png');
+    background-repeat: no-repeat;
+   
+}
+
+.background-attachment-css{
+    color: rgb(233, 227, 227);
+    padding: 30px;
+    background-color: rgb(62, 62, 63);
+}
+
+.background-position-css{
+    padding: 50px;
+    background-color: aquamarine;
+    color: black;
+}
+
+.box-model-css{
+     margin: 10px;
+     border: 5px solid black;
+     padding: 20px;
+}
+
+.pseudo-classes-css{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+
+}
+
+.hover{
+    background-color: rgb(236, 141, 141);
+    border-radius: 10px;
+    color: rgb(19, 82, 62);
+    transition: 2s;
+}
+
+.hover:hover{
+    background-color: rgb(16, 17, 17);
+    color: rgb(225, 233, 233);
+   
+}
+
+/* Box-Shadow: x-off y-off color;*/
+.box-shadow{
+    margin: 10px;
+    padding: 20px;
+    /* Box-Shadow: x-off, y-off, Blur, color;*/
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+
+}
+
+.inline-box{
+    background: aquamarine;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+
+}
+
+.position-css{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.display{
+    display: inline-block;
+}
